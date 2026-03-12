@@ -10,6 +10,7 @@ This dataset contains 10,000 customer records, including:
 * **Demographics:** Geography, Gender, Age
 * **Account Info:** CreditScore, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary
 * **Target Variable:** Exited (1 = Churned, 0 = Retained)
+
 # Methodology
 The project follows a standard data science pipeline:
 
@@ -19,7 +20,7 @@ The project follows a standard data science pipeline:
 
 3. Model Building & Evaluation: The data is split into training and testing sets, and the following classifiers are trained and compared:
 
-K-Nearest Neighbors (KNN)
+* **K-Nearest Neighbors (KNN)
 
 Decision Tree Classifier
 

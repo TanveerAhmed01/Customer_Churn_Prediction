@@ -15,11 +15,11 @@ Target Variable: Exited (1 = Churned, 0 = Retained)
 # Methodology
 The project follows a standard data science pipeline:
 
-Data Preprocessing: Dropping irrelevant columns (RowNumber, CustomerId, Surname), handling missing values, and encoding categorical variables using LabelEncoder and pd.get_dummies.
+1. Data Preprocessing: Dropping irrelevant columns (RowNumber, CustomerId, Surname), handling missing values, and encoding categorical variables using LabelEncoder and pd.get_dummies.
 
-Exploratory Data Analysis (EDA): Visualizing the churn count and plotting a feature correlation heatmap.
+2. Exploratory Data Analysis (EDA): Visualizing the churn count and plotting a feature correlation heatmap.
 
-Model Building & Evaluation: The data is split into training and testing sets, and the following classifiers are trained and compared:
+3. Model Building & Evaluation: The data is split into training and testing sets, and the following classifiers are trained and compared:
 
 K-Nearest Neighbors (KNN)
 

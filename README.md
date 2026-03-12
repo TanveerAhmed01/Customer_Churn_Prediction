@@ -19,33 +19,27 @@ The project follows a standard data science pipeline:
 2. Exploratory Data Analysis (EDA): Visualizing the churn count and plotting a feature correlation heatmap.
 
 3. Model Building & Evaluation: The data is split into training and testing sets, and the following classifiers are trained and compared:
-
-* **K-Nearest Neighbors (KNN)
-
-Decision Tree Classifier
-
-Random Forest Classifier
-
-AdaBoost Classifier
-
-Gradient Boosting Classifier
+* **K-Nearest Neighbors (KNN)**
+* **Decision Tree Classifier**
+* **Random Forest Classifier**
+* **AdaBoost Classifier**
+* **Gradient Boosting Classifier**
 
 # Technologies Used
--Python 3
+* **Python 3**
 
--Pandas & NumPy: Data manipulation
+* **Pandas & NumPy:** Data manipulation
 
--Matplotlib & Seaborn: Data visualization
+* **Matplotlib & Seaborn:** Data visualization
 
--Scikit-Learn: Machine learning modeling and evaluation metrics (Accuracy, Precision, Recall, F1-Score, ROC Curve)
+* **Scikit-Learn:** Machine learning modeling and evaluation metrics (Accuracy, Precision, Recall, F1-Score, ROC Curve)
 
 # How to Run
--Clone this repository to your local machine.
+* **Clone this repository to your local machine.**
 
--Ensure you have the required libraries installed.
+* **Ensure you have the required libraries installed.**
 
--Open Customer_Churn_Prediction.ipynb in Google Colab or Jupyter Notebook.
+* **Open Customer_Churn_Prediction.ipynb in Google Colab or Jupyter Notebook.**
+* **Upload the Churn_Data.csv file when prompted by the notebook**
 
--Upload the Churn_Data.csv file when prompted by the notebook.
-
--Run all cells to see the data visualizations and model comparisons.
+* **Run all cells to see the data visualizations and model comparisons**

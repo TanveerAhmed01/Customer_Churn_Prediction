@@ -3,15 +3,13 @@
 # Overview
 This project focuses on predicting customer churn using various machine learning classification algorithms. By analyzing customer demographics and account information, the models identify patterns that indicate whether a customer is likely to leave the service (churn) or stay.
 
-# Dataset
-The analysis is based on the Churn_Data.csv dataset, which contains 10,000 customer records. Key features include:
+# Dataset 
+The data for this project is located in the `Dataset` folder. The primary file used for analysis is [**`Churn_Data.csv`**](./Dataset/Churn_Data.csv).
 
-Demographics: Geography, Gender, Age
-
-Account Info: CreditScore, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary
-
-Target Variable: Exited (1 = Churned, 0 = Retained)
-
+This dataset contains 10,000 customer records, including:
+* **Demographics:** Geography, Gender, Age
+* **Account Info:** CreditScore, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary
+* **Target Variable:** Exited (1 = Churned, 0 = Retained)
 # Methodology
 The project follows a standard data science pipeline:
 
